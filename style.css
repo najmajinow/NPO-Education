@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #3b5998; /* Education-friendly blue */
     color: white;
     padding: 15px;
     text-align: center;
@@ -69,7 +69,7 @@ nav a {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #3b5998; /* Education-friendly blue */
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -78,7 +78,7 @@ nav a {
 }
 
 .cta-button:hover {
-    background-color: #45a049;
+    background-color: #2d4373; /* Slightly darker blue for hover effect */
 }
 
 /* Form Styles */
@@ -98,7 +98,7 @@ form input, form textarea {
 
 form button {
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #3b5998; /* Education-friendly blue */
     color: white;
     border: none;
     border-radius: 5px;
@@ -106,7 +106,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #45a049;
+    background-color: #2d4373; /* Slightly darker blue for hover effect */
 }
 
 /* Footer */
