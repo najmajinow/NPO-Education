@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPO Online Education Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Online Education Platform</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#courses">Courses</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="hero">
+            <h1>Welcome to Our Online Learning Platform</h1>
+            <p>Empowering you with the knowledge to succeed. Explore our premium courses and start learning today!</p>
+            <a href="#courses" class="cta-button">Browse Courses</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are dedicated to providing high-quality education through our online platform. Our courses are designed to offer practical knowledge and skills to help you achieve your goals. Our team consists of experienced educators and industry professionals who are passionate about teaching and learning.</p>
+        </div>
+    </section>
+
+    <section id="courses">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <div class="course-horizontal">
+                <div class="course-card" id="business-admin">
+                    <img src="https://via.placeholder.com/300x200" alt="Business Administration">
+                    <h3>Business Administration</h3>
+                    <p>Master the art of business management.</p>
+                    <a href="#" class="cta-button" onclick="showCourseDetails('business-admin')">View Details</a>
+                </div>
+                <div class="course-card" id="basic-computer">
+                    <img src="https://via.placeholder.com/300x200" alt="Basic Computer Skills">
+                    <h3>Basic Computer Skills</h3>
+                    <p>Build essential computer skills for everyday use.</p>
+                    <a href="#" class="cta-button" onclick="showCourseDetails('basic-computer')">View Details</a>
+                </div>
+                <div class="course-card" id="first-aid">
+                    <img src="https://via.placeholder.com/300x200" alt="First Aid">
+                    <h3>First Aid</h3>
+                    <p>Learn crucial first aid techniques for emergencies.</p>
+                    <a href="#" class="cta-button" onclick="showCourseDetails('first-aid')">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="course-details" class="hidden">
+        <div class="container">
+            <!-- Course details content will be inserted here by JavaScript -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need support, feel free to reach out to us.</p>
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Online Education Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
